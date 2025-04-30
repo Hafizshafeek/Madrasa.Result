@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HIDAYATHUL ISLAM MADRASA - Result</title>
+  
+    <!-- Arabic Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Almarai&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>  
+<body>
+
+  <!-- Header -->
+  <header class="top-header">
+    <div class="logo-area">
+      <h1 style="font-family: 'Almarai', sans-serif;">مدرسة هداية الإسلام  </h1>
+      <h2>HIDAYATHUL ISLAM MADRASA</h2>
+      <p>Vadasherikkonam, Tvm, Kerala</p>
+    </div>
+  </header>
+
+  <!-- Result Section -->
+  <div class="container">
+    <h2>EXAMINATION RESULT 2025</h2>
+
+    <!-- Form -->
+    <label for="class">Class</label>
+    <select id="classSelect">
+      <option value="">SELECT CLASS</option>
+      <option value="class1.csv">Class 1</option>
+      <option value="class5.csv">Class 5</option>
+    </select>
+
+    <label for="roll">Register Number</label>
+    <input type="text" id="roll" placeholder="Enter Register Number" />
+
+    <button onclick="searchResult()">Submit</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

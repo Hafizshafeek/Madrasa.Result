@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #d5e8ff, #a3c8e5);
+  color: #333;
+}
+
+.top-header {
+  background: linear-gradient(to right, #01457e, #0260a6);
+  color: white;
+  padding: 25px 20px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid #023c6a;
+}
+
+.top-header h1 {
+  margin: 0;
+}
+
+.top-header h2 {
+  margin: 10px 0;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.top-header p {
+  font-size: 1em;
+  margin: 5px 0;
+}
+
+.container {
+  background: #ffffff;
+  max-width: 550px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 1.8em;
+  color: #01457e;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 20px;
+  font-size: 1.1em;
+  color: #333;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+input:focus, select:focus {
+  border-color: #023c6a;
+  box-shadow: 0 0 8px rgba(2, 60, 106, 0.5);
+  outline: none;
+}
+
+button {
+  margin-top: 25px;
+  width: 100%;
+  background-color: #01457e;
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 18px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #023c6a;
+  transform: scale(1.05);
+}
+
+#result {
+  margin-top: 25px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.not-found {
+  color: red;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  font-size: 1.1em;
+}
+
+th {
+  background-color: #01457e;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
