@@ -136,3 +136,36 @@ tr:nth-child(even) {
 tr:hover {
   background-color: #f1f1f1;
 }
+@media (max-width: 600px) {
+  .container {
+    margin: 20px 10px;
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  .top-header h1 {
+    font-size: 1.4em;
+  }
+
+  .top-header h2 {
+    font-size: 1.2em;
+  }
+
+  .top-header p {
+    font-size: 0.9em;
+  }
+
+  .container h2 {
+    font-size: 1.4em;
+  }
+
+  input, select, button {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  th, td {
+    font-size: 0.95em;
+    padding: 8px;
+  }
+}
