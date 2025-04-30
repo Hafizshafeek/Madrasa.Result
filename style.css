@@ -19,15 +19,15 @@ body {
 }
 
 .top-header h2 {
-  margin: 10px 0;
+  margin: 1px 0;
   font-size: 1.8em;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .top-header p {
-  font-size: 1em;
-  margin: 5px 0;
+  font-size: 1.1em;
+  margin: 1px 0;
 }
 
 .container {
@@ -61,6 +61,7 @@ label {
 
 input, select {
   width: 100%;
+  box-sizing: border-box; /* Ensures padding/border doesn't break width */
   padding: 12px;
   margin-top: 8px;
   border: 1px solid #ccc;
@@ -68,6 +69,7 @@ input, select {
   font-size: 16px;
   transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+
 
 input:focus, select:focus {
   border-color: #023c6a;
