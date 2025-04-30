@@ -1,1 +1,0 @@
-# Madrasa.Result
