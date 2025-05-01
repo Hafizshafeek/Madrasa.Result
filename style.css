@@ -4,18 +4,33 @@ body {
   background: linear-gradient(to right, #d5e8ff, #a3c8e5);
   color: #333;
 }
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.logo-area img.logo {
+  width: 120px;
+  height: auto;
+  border-radius: 10px;
+}
 
 .top-header {
   background: linear-gradient(to right, #01457e, #0260a6);
   color: white;
-  padding: 25px 20px;
+  padding: 10px 20px;
   text-align: center;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   border-bottom: 3px solid #023c6a;
 }
 
 .top-header h1 {
-  margin: 0;
+  margin: 5px;
+  color: #dfb464;
 }
 
 .top-header h2 {
@@ -35,7 +50,7 @@ body {
   max-width: 550px;
   margin: 40px auto;
   padding: 30px;
-  border-radius: 12px;
+  border-radius: 20px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease-in-out;
 }
@@ -140,9 +155,9 @@ tr:hover {
 }
 @media (max-width: 600px) {
   .container {
-    margin: 20px 10px;
+    margin: 20px 20px;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 20px;
   }
 
   .top-header h1 {
